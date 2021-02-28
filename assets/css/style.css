@@ -132,3 +132,29 @@
 .room__focus {
     grid-area: 1 / 2 / 2 / 3;
 }
+
+.partners {
+    grid-row: 6 / 7;
+    grid-column: 1 / 6;
+}
+
+.partners__text {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.partners__logos {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(3, 70px);
+    grid-gap: 1em;
+    align-items: baseline;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.logo18 {
+    margin-left: 12px;
+}
+
+
